@@ -9,7 +9,7 @@ const Shop = () => {
       <div className="shopTitle">
         <h1> Pedrotech Shop</h1>
       </div>
-      <div className="produts">
+      <div className="products">
         {PRODUCTS.map((item)=>(
             <Product  data={item}/>
         ))}

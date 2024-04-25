@@ -47,7 +47,7 @@ export const PRODUCTS = [
     },
     {
         id:7,
-        productName: "Cqp",
+        productName: "Cap",
         price: 50.0,
         productImage: product7
     },
