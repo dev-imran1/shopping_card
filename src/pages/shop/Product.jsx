@@ -1,7 +1,7 @@
 import React from 'react'
-// import '/shop.css';
 import './shop.css'
 const Product = (props) => {
+  // console.log(props.data)
     const {id, productName, price, productImage}= props.data;
   return (
     <div className='product'>

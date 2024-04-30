@@ -10,8 +10,10 @@ const Shop = () => {
         <h1> Pedrotech Shop</h1>
       </div>
       <div className="products">
-        {PRODUCTS.map((item)=>(
-            <Product  data={item}/>
+        {PRODUCTS.map((item, index)=>(
+          <div key={index}>
+            <Product data={item}/>
+          </div>
         ))}
         </div>
     </div>
